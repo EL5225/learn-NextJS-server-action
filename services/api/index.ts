@@ -1,4 +1,4 @@
-import { api } from "@/utils";
+import { api } from "@/services";
 import { TRegisterRequest } from "./types";
 
 export const register = async (payload: TRegisterRequest) => {
